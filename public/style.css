@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0; margin:0;
+}
+html, body {
+	height: 100%;
+}
+body{
+	background:#4dbc9b;
+}
+.bg-karkas{
+	width:100%;
+	background:url(images/bg.png) no-repeat center top;
+	height:100%;
+}	
+.karkas{
+	margin:0 auto;
+	display:table;
+	font-family: 'PT Sans', sans-serif;
+	font-weight:400;
+	color:#fff;
+	min-width:960px;
+	max-width:1400px;
+	height:100%;
+}
+a{
+	border-bottom:1px solid #a6decd;
+	color:#fff;
+}
+a:hover{
+	color:#FFFF00;
+	border-bottom:1px solid #FFFF00;
+}
+.main-left{
+	float:left;
+	margin-top:200px;
+}
+.logo{
+	width:353px;
+	height:43px;
+	background:url(images/logo.png) no-repeat center;
+	margin-bottom:25px;
+}
+.information p{
+	font-size:14px;
+	line-height:1.5;
+	margin-bottom:20px;
+}
+.store{
+	margin-top:50px;
+	margin-bottom:25px;
+	overflow:hidden;
+}
+.appstore{
+	float:left;
+}
+.appstore a{
+	width:152px;
+	height:55px;
+	background:url(images/appstore.svg) no-repeat center;
+	display:block;
+	border:0;
+}
+.googleplay{
+	float:right;
+}
+.googleplay a{
+	width:177px;
+	height:55px;
+	background:url(images/googleplay.png) no-repeat center;
+	display:block;
+	border:0;
+}
+.main-right{
+	float:right;
+}
+.phone{
+	width:480px;
+	height:786px;
+	background:url(images/phone.png) no-repeat center;
+}
+.screen{
+	width:241px;
+	height:427px;
+	overflow:hidden;
+	position: relative;
+	top: 180px;
+	left: 119px;
+}
+.header{
+	height:0;
+	z-index: 99;
+	position: relative;
+	background:#f0f0f0;
+}
+.images{
+	height:426px;
+	background:#f0f0f0;
+	position:relative;
+}
+.images img{
+	position:relative;
+	top:0px;
+}
+.content{
+	overflow:hidden;
+	margin:-40px 0px -20px 42px;
+	height:100% !important;
+}
+.creator{
+	float:left;
+}
+.info-creator{
+	float:right;
+	margin-right:45px;
+}
+.info-creator li{
+	list-style:none;
+	margin-left:30px;
+	display:inline-block;
+}
+.info-creator a{
+	text-decoration:none;
+}
+.footer{
+	margin:0px 40px 20px 42px;
+	height:35px;
+}
+
+
+/*стили для анимации*/
+.first_1{
+	display:table;
+	}
+.home_push{
+	display:none;
+	
+}
+.second_1{
+	display:none;
+	left:241px;
+	}
+.third_1{
+	display:none;
+	}	
+
+
+.first{
+	display:table;
+	position:relative;
+	top:50px;
+	position:absolute;
+	}
+
+.second{
+	/*display:none;*/
+	left:-250px;
+	position:absolute;
+	top:50px;
+	}
+.home_screen{
+	display:none;
+	position:relative;
+	position:absolute;
+top:0;
+}
+.third{
+	/*display:none;*/
+	position:relative;
+	position:absolute;
+	left:-250px;
+	top:50px;
+	}	
+.fourth{
+	/*display:none;*/
+	position:relative;
+	position:absolute;
+	left:-250px;
+	top:50px;
+	}
+
+

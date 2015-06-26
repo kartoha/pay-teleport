@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0; margin:0;
+}
+body{
+	background:#4dbc9b;
+}
+.karkas{
+	font-family: 'PT Sans', sans-serif;
+	font-weight:400;
+	min-width:600px;
+	max-width:900px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:30px;
+	color:#fff;
+}
+a{
+	border-bottom:1px solid #a6decd;
+	color:#fff;
+}
+a:hover{
+	color:#FFFF00;
+	border-bottom:1px solid #FFFF00;
+}
+.label a{
+	width:202px;
+	background:url(../images/label.png) no-repeat center;
+	text-align:center;
+	font-size:24px;
+	padding: 12px 0px 12px 20px;
+	float:left;
+	color:#343434;
+	text-decoration:none;
+	border:0;
+}
+.store{
+	width:360px;
+	overflow:hidden;
+	float:right;
+}
+.appstore{
+	float:left;
+}
+.appstore a{
+	width:152px;
+	height:55px;
+	background:url(../images/appstore.svg) no-repeat center;
+	display:block;
+	border:0;
+}
+.googleplay{
+	float:right;
+}
+.googleplay a{
+	width:177px;
+	height:55px;
+	background:url(../images/googleplay.png) no-repeat center;
+	display:block;
+	border:0;
+}
+header{
+	overflow:hidden;
+}
+.content{
+	margin-bottom:100px;
+	margin-top:80px;
+}
+h2{
+	font-size:24px;
+	font-weight:400;
+	margin-bottom:30px;
+	margin-left:180px;
+}
+.bilain{
+	padding-left:180px;
+	background:url(../images/bilain.png) no-repeat left top;
+	background-position:0 5px;
+}
+.content p{
+	line-height:1.5;
+	font-size:14px;
+	margin-top:10px;
+}
+.content ul{
+	margin-left:50px;
+}
+.content ul li{
+	margin-bottom:5px;
+	list-style-type:decimal;
+	font-size:14px;
+}
+.bil li{
+	list-style:none !important;
+}
+.megafon{
+	padding-left:180px;
+	background:url(../images/megafon.png) no-repeat left top;
+	background-position:0 5px;
+	margin:50px 0;
+}
+.mts{
+	padding-left:180px;
+	background:url(../images/mts.png) no-repeat left top;
+	background-position:0 5px;
+}
+
+/*footer*/
+
+.creator{
+	float:left;
+}
+.info-creator{
+	float:right;
+}
+.info-creator li{
+	list-style:none;
+	margin-left:30px;
+	display:inline-block;
+}
+.info-creator li:nth-child(2){
+	color:#FFFF00;
+}
+.info-creator a{
+	text-decoration:none;
+}
+.footer{
+	height:35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

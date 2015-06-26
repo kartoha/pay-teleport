@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ТелепортPay&nbsp;&mdash; оперативная помощь</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53136235-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic">
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script>
+
+$(function() {
+
+	function cycleEffects() {
+		var timespan = "slow";
+				
+			  $('.first')
+
+                .delay(4000).animate({top: "-225px"},2000)
+                .queue(function() {
+						$('.first').animate({right:"-250px"},1500);
+						$('.second').animate({left:"0px"},1500,function(){
+							$(this).css('left','auto');
+						});
+						$('.first_1').hide();
+						$('.second_1').show(0);
+						$('.second_1').delay(3300).hide(0);
+						$('.second').delay(3000).animate({right:"-250px"},1500);
+
+						$('.home_screen').delay(3000).show(200);
+						
+						$('.home_push').delay(5500).show(0);
+						$('.home_screen').delay(4500).animate({right:"-250px"},1500);
+				
+						$('.third').delay(7700).animate({left:"0"},1500,function(){
+							$(this).css('left','auto');
+						});
+						$('.home_push').delay(2000).hide(0);
+						
+						$('.third').delay(500).animate({top: "0px"}, timespan);
+						
+						$('.third').delay(2500).animate({right:"-250px"},1500);
+						
+						
+						$('.second_1').delay(4500).show(0);
+						$('.second_1').delay(5000).hide(0);
+						
+						$('.third_1').delay(13100).show(0);
+						$('.fourth').delay(13100).animate({left:"0px"},1500,function(){
+							$(this).css('left','auto');
+						});
+						
+						$('.fourth').delay(2000).animate({top: "-420px"}, 5000,function(){
+							$('.first,.second,.home_screen,.third,.fourth,.first_1,.second_1,.home_push,.third_1').removeAttr('style');
+							cycleEffects();
+						});
+					
+						$(this).dequeue();
+		
+				
+               });
+	
+		}
+
+		cycleEffects();
+
+  });
+
+  </script>  
+</head>
+
+<body>
+	<div class="bg-karkas">
+    	<div class="karkas">
+        	<div class="content">
+            	<div class="main-left">
+                	<div class="logo"></div>
+                    <div class="information">
+                    	<p>Телепорт<i>Pay</i> &mdash; это революция в сфере пожертвований.<br>Пожертвуйте в один клик.</p>
+                        <p>Поможем миру вместе!</p>
+                    </div>
+                	<div class="store">
+                    	<div class="appstore">
+                        	<a target="_blank" href="#"></a>
+                        </div>
+                        <!--<div class="googleplay">
+                        	<a target="_blank" href="https://play.google.com/store/apps/details?id=com.vmigarenda"></a>
+                        </div>-->
+                    </div>
+                    <!--<div class="like">
+						<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/tweet_button.1403226798.html#_=1403544584411&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=ru&amp;original_referer=http%3A%2F%2Fwpnew.ru%2Fudobnaya-rabota%2Fkak-dobavit-knopku.html&amp;size=m&amp;text=VMIGARENDA.ru&amp;url=http%3A%2F%2FVMIGARENDA.ru" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="width: 138px; height: 20px;"></iframe>
+                        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2FVMIGARENDA.ru&amp;layout=button_count&amp;show_faces=false&amp;width=200&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
+                    </div>-->
+                </div>
+                <div class="main-right">
+                	<div class="phone">
+                    	<div class="screen">
+                        	<div class="header">
+                            	<div class="first_1"><img src="images/home-index.png"/></div>
+
+                            </div>	
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+            	<div class="creator">
+                	©2015 Телепорт
+                </div>
+                <div class="info-creator">
+                	<ul>
+                    	<li><a href="about/">О компании</a></li>
+                        <li><a href="payment/">Информация о платежах</a></li>
+                        <li><a href="feedback/">Связь с разработчиками</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
